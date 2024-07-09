@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Tie</title>
+    <link rel="stylesheet" href="tic-tac-tie.css">
+</head>
+<body>
+    <div class="msg hide">
+        <p class="showMsg">Congrats</p>
+        <button class="restart">New Game</button>
+    </div>
+    <main>
+        <h1>Tic-Tac-Tie</h1>
+        <form>
+            <input type="text" id="player1" class="player" placeholder="Enter Player1 Name">
+            <input type="text" id="player2" class="player" placeholder="Enter Player2 Name">
+            <br>
+            <input type="submit" id="sub" value="Submit">
+        </form>
+        <!-- <h3 class="turn hidep1">First Turn-player1</h3>
+        <h3 class="turn hidep2">First Turn-player2</h3> -->
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset">Reset</button>
+    </main>
+    <script src="tic-tac-tie.js"></script>
+</body>
+</html>
